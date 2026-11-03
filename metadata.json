@@ -1,0 +1,10 @@
+{
+  "name": "Attendly - University Attendance Management System",
+  "description": "Comprehensive institutional student attendance management platform featuring dynamic cryptographic QR code check-in, live lecturer monitors, manual registers, and institutional analytics.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

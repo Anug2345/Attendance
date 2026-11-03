@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-teal-brand: #006D77;
+  --color-teal-brand-dark: #00555D;
+  --color-teal-brand-light: #EBF5F6;
+  --color-navy-dark: #142B3B;
+  --color-green-fresh: #20B486;
+  --color-green-light: #EAF8F3;
+  --color-bg-soft: #F7F9FA;
+  --color-border-subtle: #E8EDF0;
+  --color-text-main: #17252F;
+  --color-text-muted: #718096;
+  --color-warning-gold: #F4B942;
+  --color-warning-light: #FEF8EC;
+  --color-danger-red: #E45B64;
+  --color-danger-light: #FDF0F1;
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+/* Custom scrollbars & clean print style for institutional reports */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}
+
+/* Smooth transitions */
+* {
+  border-color: #E8EDF0;
+}
